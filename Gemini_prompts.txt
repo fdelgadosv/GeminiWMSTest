@@ -1,0 +1,20 @@
+Initial prompt - very basic instructions:
+** Create a web map application to load one of the layers from the WMS Service at https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/wmts.cgi?request=GetCapabilities. When the layer has different times available, the application should offer a way to navigate the different dates. 
+
+Adding search capabilities (to find a layer amongst a fairly large number of layers)
+** Modify the application to allow the user to search for the layer they want to display by typing some part of the name
+
+To find the styles applicable to the selected layer and allow users to select from these options
+** If there are any styles defined for the selected layer, show them in a dropdown to allow the user to select one.
+
+To list the dates for the selected layer
+** Show the available dates for the selected layer in a dropdown
+
+Toggle layer on/off
+** Add a toggle button to show/hide the layer
+
+Let user set the transparency
+** Add a slider to control the transparency of the layer
+
+Move controls to a side panel
+** Place all controls in a collapsible panel on the left side of the map
